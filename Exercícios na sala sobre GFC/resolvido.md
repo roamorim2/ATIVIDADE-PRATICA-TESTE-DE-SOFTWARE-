@@ -1,6 +1,5 @@
 # Exercícios de Grafo de Fluxo de Controle
 
-Resolução dos dois exercícios da revisão da SEMANA07.
 
 Pra montar os dois grafos usamos a mesma lógica do relatório da atividade 3:
 cada `if`/`else if` vira um nó de decisão, laço tem um nó de decisão com
@@ -77,7 +76,7 @@ como um nó só de entrada). Arestas = 11.
 
 `V(G) = E - N + 2 = 11 - 9 + 2 = 4`
 
-Confirmando pelas decisões: 3 decisões + 1 = 4. Bate.
+Confirmando pelas decisões: 3 decisões + 1 = 4. 
 
 ### Base de caminhos independentes
 
@@ -177,9 +176,9 @@ contando a aresta de retorno do laço.
 | P3 | uma iteração, ramo acima de 35 | `[40]` | 1 |
 | P4 | uma iteração, ramo normal | `[20]` | 0 |
 
-### Por que o retorno do laço precisa aparecer no grafo
+### Por que o retorno do laço precisa aparecer 
 
-Sem a aresta voltando pro `D1`, o grafo daria a entender que o corpo do
+Sem a aresta voltando pro `D1`, o grafo dá a entender que o corpo do
 laço roda no máximo uma vez, o que não é verdade pra arrays com mais de um
 elemento.
 
@@ -192,7 +191,7 @@ uma vez pelo ramo negativo, uma pelo "acima de 35" e uma pelo normal,
 dando `alertas = 2 + 1 + 0 = 3`.
 
 Qual entrada sai do método sem acessar nenhuma posição do vetor? Array
-vazio - o `while` já é falso de cara.
+vazio - o `while` é falso 
 
 Os testes com 0 e 35 ajudam a avaliar quais fronteiras? 0 é o limite entre
 "negativo" e "normal" (a condição é `< 0`, estrita, então 0 cai no normal).
